@@ -28,3 +28,5 @@ app.delete('/students/:id', (req, res) => {
  res.json({message:'Deleted successfully'});
 });
 app.listen(3000, () => console.log('Server running on port 3000'));
+
+module.exports = app;
